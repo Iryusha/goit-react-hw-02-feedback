@@ -8,42 +8,28 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: rgb(76, 175, 80);
+  background-color: rgb(10, 8, 46);
   border: none;
   border-radius: 15px;
-  box-shadow: 0 4px rgb(153, 153, 153);
+  box-shadow: 0 4px rgb(210, 209, 209);
 }
 
 .button:hover {
-  background-color: rgb(62, 142, 65);
-}
-
-.button:active {
-  background-color: rgb(62, 142, 65);
-  box-shadow: 0 2px black;
-  transform: translateY(4px);
+  background-color: rgb(137, 137, 137);
 }
 
 button[data='neutral'] {
-  background-color: rgb(191, 191, 191);
+  background-color: rgb(213, 165, 33);
 }
 
 button[data='neutral']:hover {
   background-color: rgb(137, 137, 137);
 }
 
-button[data='neutral']:active {
-  background-color: rgb(67, 67, 67);
-}
-
 button[data='bad'] {
-  background-color: rgb(251, 72, 72);
+  background-color: rgb(100, 8, 103);
 }
 
 button[data='bad']:hover {
-  background-color: rgb(252, 36, 36);
-}
-
-button[data='bad']:active {
-  background-color: red;
+  background-color: rgb(137, 137, 137);
 }
